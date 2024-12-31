@@ -1,0 +1,36 @@
+{
+	"compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "outDir": "./dist",
+        "resolveJsonModule": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "removeComments": true,
+        "exactOptionalPropertyTypes": true,
+        "allowUnreachableCode": false,
+        "strictPropertyInitialization": false,
+        "strict": true,
+        "checkJs": false,
+        "allowJs": false,
+        "noImplicitAny": false,
+        "noImplicitReturns": true,
+        "noUnusedLocals": true,
+        "importHelpers": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "newLine": "lf",
+        "forceConsistentCasingInFileNames": true,
+        "sourceMap": true,
+        "inlineSources": true,
+
+        // Set `sourceRoot` to  "/" to strip the build path prefix
+        // from generated source code references.
+        "sourceRoot": "/"
+    },
+	"exclude": [
+		"src/tests/**/*",
+		"src/**/*.test.ts"
+	]
+}
